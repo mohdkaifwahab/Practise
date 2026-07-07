@@ -99,6 +99,20 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 272.12477609254506,
+			"y": 1730.3605316721244,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:hrudxIeHQmqnFkvieJu-V",
+			"type": "group",
+			"parentId": "page:page",
+			"index": "aIz6oZ",
+			"props": {},
+			"typeName": "shape"
+		},
+		{
 			"x": 0,
 			"y": 0,
 			"rotation": 0,
@@ -133,6 +147,48 @@
 			},
 			"parentId": "shape:GG2AOv6cD9ZLLO241k00r",
 			"index": "a4mu2",
+			"typeName": "shape"
+		},
+		{
+			"x": 3.706291790900991,
+			"y": 55.59446522848111,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:GcAklp1mUI6e6_eu-CkI1",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "m",
+				"w": 879.4000244140625,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "git diff HEAD . :: it means compare with last push commit with current"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:hrudxIeHQmqnFkvieJu-V",
+			"index": "a89NI",
 			"typeName": "shape"
 		},
 		{
@@ -398,9 +454,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 52.68688724119903,
-			"y": -989.028042342761,
-			"z": 0.6894773396412877,
+			"x": -56.03009959515089,
+			"y": -1418.3676730497941,
+			"z": 0.9828113469485464,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -588,15 +644,15 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": "shape:FB1xVdVTHyx7natlorYdt",
+			"editingShapeId": "shape:GcAklp1mUI6e6_eu-CkI1",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:FB1xVdVTHyx7natlorYdt"
+				"shape:GcAklp1mUI6e6_eu-CkI1"
 			],
-			"hoveredShapeId": null,
+			"hoveredShapeId": "shape:GcAklp1mUI6e6_eu-CkI1",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
-			"focusedGroupId": "shape:vM_Oezu4Zas3AIraCVb8y",
+			"focusedGroupId": "shape:hrudxIeHQmqnFkvieJu-V",
 			"meta": {},
 			"id": "instance_page_state:page:page",
 			"pageId": "page:page",
@@ -930,6 +986,48 @@
 			},
 			"parentId": "shape:_Yg2T05tEgFqIW1hOsKJn",
 			"index": "a5zqY",
+			"typeName": "shape"
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:omrSPmHtCdbwfSHTQOQYG",
+			"type": "text",
+			"props": {
+				"color": "violet",
+				"size": "m",
+				"w": 323.9950256347656,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "for diff between commits "
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:hrudxIeHQmqnFkvieJu-V",
+			"index": "a1zzyZlO",
 			"typeName": "shape"
 		},
 		{
