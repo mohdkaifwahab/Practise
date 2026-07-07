@@ -136,6 +136,84 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 3.706291790900991,
+			"y": 55.59446522848111,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:FB1xVdVTHyx7natlorYdt",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "m",
+				"w": 874.7350463867188,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "bulletList",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "git reset --soft HEAD~1"
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "git reset --hard HEAD~1 :: delete as well as delete the modification"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:vM_Oezu4Zas3AIraCVb8y",
+			"index": "a77PA",
+			"typeName": "shape"
+		},
+		{
 			"x": 17.279998779296875,
 			"y": 8.96252155303955,
 			"rotation": 0,
@@ -278,9 +356,51 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 370.7361227087986,
-			"y": -450.54263226001274,
-			"z": 0.4451222814638096,
+			"x": 0,
+			"y": 0,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:hWAqkXtvrlCtvy9Nl6i6F",
+			"type": "text",
+			"props": {
+				"color": "violet",
+				"size": "m",
+				"w": 328.9150085449219,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "for delete the last commit"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:vM_Oezu4Zas3AIraCVb8y",
+			"index": "a1zztmVl",
+			"typeName": "shape"
+		},
+		{
+			"x": 52.68688724119903,
+			"y": -989.028042342761,
+			"z": 0.6894773396412877,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -468,15 +588,15 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": "shape:uhlshSMtNa31mRXNPNrbD",
+			"editingShapeId": "shape:FB1xVdVTHyx7natlorYdt",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:uhlshSMtNa31mRXNPNrbD"
+				"shape:FB1xVdVTHyx7natlorYdt"
 			],
-			"hoveredShapeId": "shape:uhlshSMtNa31mRXNPNrbD",
+			"hoveredShapeId": null,
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
-			"focusedGroupId": "shape:vAbXBAgYlY5hrLw3F5xWL",
+			"focusedGroupId": "shape:vM_Oezu4Zas3AIraCVb8y",
 			"meta": {},
 			"id": "instance_page_state:page:page",
 			"pageId": "page:page",
@@ -1475,6 +1595,20 @@
 			"type": "group",
 			"parentId": "page:page",
 			"index": "aFgm2",
+			"props": {},
+			"typeName": "shape"
+		},
+		{
+			"x": 272.12477609254506,
+			"y": 1546.6172094838523,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:vM_Oezu4Zas3AIraCVb8y",
+			"type": "group",
+			"parentId": "page:page",
+			"index": "aIwRS8",
 			"props": {},
 			"typeName": "shape"
 		},
