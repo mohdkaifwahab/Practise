@@ -175,9 +175,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 1797.4270819978292,
-			"y": 84.90070309952236,
-			"z": 0.2900019038661948,
+			"x": -137.46747892092367,
+			"y": -1392.9270281092147,
+			"z": 1.1943714680843218,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -351,10 +351,12 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": null,
+			"editingShapeId": "shape:_cqEYZpllx7J1ogO4J3Pu",
 			"croppingShapeId": null,
-			"selectedShapeIds": [],
-			"hoveredShapeId": null,
+			"selectedShapeIds": [
+				"shape:_cqEYZpllx7J1ogO4J3Pu"
+			],
+			"hoveredShapeId": "shape:_cqEYZpllx7J1ogO4J3Pu",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -465,6 +467,48 @@
 			},
 			"parentId": "page:page",
 			"index": "aAxfXt",
+			"typeName": "shape"
+		},
+		{
+			"x": 709.425218315435,
+			"y": 1573.7652883902167,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:_cqEYZpllx7J1ogO4J3Pu",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 160.31500244140625,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Setup Jenkin"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aDisM",
 			"typeName": "shape"
 		},
 		{
@@ -810,7 +854,7 @@
 			"isFocused": true,
 			"devicePixelRatio": 1.0416666269302368,
 			"isCoarsePointer": false,
-			"isHoveringCanvas": null,
+			"isHoveringCanvas": true,
 			"openMenus": [],
 			"isChangingStyle": false,
 			"isReadonly": false,
