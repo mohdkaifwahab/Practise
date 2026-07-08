@@ -61,6 +61,25 @@
 			"typeName": "binding"
 		},
 		{
+			"x": 356.7181623314387,
+			"y": 2028.8914301313794,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:U2ugSgZgmTp3eEht6RNXG",
+			"type": "frame",
+			"props": {
+				"w": 382.23739655819537,
+				"h": 464.4981966138075,
+				"name": "",
+				"color": "black"
+			},
+			"parentId": "page:page",
+			"index": "aG2kM",
+			"typeName": "shape"
+		},
+		{
 			"meta": {},
 			"id": "binding:IDLQvJy_A6Un2kDWOvkow",
 			"type": "arrow",
@@ -175,12 +194,96 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -137.46747892092367,
-			"y": -1392.9270281092147,
-			"z": 1.1943714680843218,
+			"x": 54.990795464264465,
+			"y": -1724.3519072301071,
+			"z": 1.0749343212758897,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
+		},
+		{
+			"x": 709.425218315435,
+			"y": 1736.2147496429036,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:rpUW4r1zOrMDrid_23CZI",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 267.9850158691406,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Create Jobs in Jenkin"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aDuzqO",
+			"typeName": "shape"
+		},
+		{
+			"x": 709.425218315435,
+			"y": 1873.7473443242814,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:fvIetFmbjibwv1G60rlIo",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 210.4300079345703,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Types of pipeline"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aDxMUh",
+			"typeName": "shape"
 		},
 		{
 			"x": 777.0299682617188,
@@ -351,12 +454,12 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": "shape:_cqEYZpllx7J1ogO4J3Pu",
+			"editingShapeId": "shape:f0AOnxkoKhStUfYXMteC_",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:_cqEYZpllx7J1ogO4J3Pu"
+				"shape:f0AOnxkoKhStUfYXMteC_"
 			],
-			"hoveredShapeId": "shape:_cqEYZpllx7J1ogO4J3Pu",
+			"hoveredShapeId": "shape:f0AOnxkoKhStUfYXMteC_",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -364,6 +467,276 @@
 			"id": "instance_page_state:page:page",
 			"pageId": "page:page",
 			"typeName": "instance_page_state"
+		},
+		{
+			"x": 41.08146955376901,
+			"y": 31.0632176301624,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:a9nsKg2R6GA6oY19a79WI",
+			"type": "text",
+			"props": {
+				"color": "grey",
+				"size": "s",
+				"w": 368.32000732421875,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 0.849496689806327,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "pipeline {"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "    agent any "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "    stages {"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "        stage ('Build'){"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "            steps {"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "                echo 'Building the project......'"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "            }"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "        }"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "         stage ('Test'){"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "            steps {"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "                echo 'Running tests.......'"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "            }"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "        }"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "         stage ('Deploy'){"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "            steps {"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "                echo 'Deploy the app......'"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "            }"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "        }"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "    }"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "}"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:U2ugSgZgmTp3eEht6RNXG",
+			"index": "a1zFk",
+			"typeName": "shape"
 		},
 		{
 			"x": 460.3019898195935,
@@ -405,6 +778,168 @@
 			},
 			"parentId": "page:page",
 			"index": "a7fFj",
+			"typeName": "shape"
+		},
+		{
+			"x": 41.08146955376901,
+			"y": 31.0632176301624,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:f0AOnxkoKhStUfYXMteC_",
+			"type": "text",
+			"props": {
+				"color": "grey",
+				"size": "s",
+				"w": 170.46426051886945,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 0.849496689806327,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "node {"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "    stage ('Build'){"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "        echo \"Build.....\""
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "    }"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "    stage ('Test'){"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "        echo \"Test.....\""
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "    }"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "    stage ('Deployt'){"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "        echo \"Deploy.....\""
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "    }"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "}"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:rRiOHGoEch0sztg9oeDIy",
+			"index": "a2l9E",
 			"typeName": "shape"
 		},
 		{
@@ -578,6 +1113,64 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 1102.6166958527947,
+			"y": 1956.45335349376,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:eogURmPbynHqfkSYZkWEw",
+			"type": "text",
+			"props": {
+				"color": "violet",
+				"size": "m",
+				"w": 131.09500122070312,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "bulletList",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Scriptive"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aDzyPbl",
+			"typeName": "shape"
+		},
+		{
 			"x": 612.934037375554,
 			"y": 1405.6244857997103,
 			"rotation": 0,
@@ -620,6 +1213,78 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 519.9111812341122,
+			"y": 1788.7021645870527,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:VxGg_QcNNlPPWKSuIlRiz",
+			"type": "text",
+			"props": {
+				"color": "grey",
+				"size": "s",
+				"w": 679.0510446274659,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "bulletList",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Simple Job create where you can create the commands like window and shell "
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aFsGf",
+			"typeName": "shape"
+		},
+		{
 			"name": "",
 			"color": "#E34BA9",
 			"imageUrl": "",
@@ -646,6 +1311,25 @@
 			"typeName": "binding"
 		},
 		{
+			"x": 1007.772088240386,
+			"y": 2028.8914301313794,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:rRiOHGoEch0sztg9oeDIy",
+			"type": "frame",
+			"props": {
+				"w": 382.23739655819537,
+				"h": 464.4981966138075,
+				"name": "",
+				"color": "black"
+			},
+			"parentId": "page:page",
+			"index": "aHco2",
+			"typeName": "shape"
+		},
+		{
 			"x": 691.5328943329898,
 			"y": 328.0699768066406,
 			"rotation": 0,
@@ -667,6 +1351,104 @@
 			},
 			"parentId": "page:page",
 			"index": "a4GAv",
+			"typeName": "shape"
+		},
+		{
+			"x": 565.0731144794152,
+			"y": 1634.1145976685405,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:KqsMrPdDzdjOWtNTPYIHH",
+			"type": "text",
+			"props": {
+				"color": "grey",
+				"size": "s",
+				"w": 512.3650207519531,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "bulletList",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Install Matser in anywhere window or aws console "
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Slave on other machine"
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "connect with using agent "
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aEsFb",
 			"typeName": "shape"
 		},
 		{
@@ -725,6 +1507,64 @@
 				"isAnimated": false
 			},
 			"meta": {}
+		},
+		{
+			"x": 447.09759093251523,
+			"y": 1953.7741154921357,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:jHxn54mOG5S53hDTI7pkD",
+			"type": "text",
+			"props": {
+				"color": "violet",
+				"size": "m",
+				"w": 152.0050048828125,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "bulletList",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Declrative"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aDzic2",
+			"typeName": "shape"
 		},
 		{
 			"x": 909.30337200062,
@@ -822,7 +1662,11 @@
 		{
 			"followingUserId": null,
 			"opacityForNextShape": 1,
-			"stylesForNextShape": {},
+			"stylesForNextShape": {
+				"tldraw:size": "s",
+				"tldraw:color": "grey",
+				"tldraw:geo": "rectangle"
+			},
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
@@ -836,8 +1680,8 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 1544.6400146484375,
-				"h": 527.0400390625
+				"w": 1843.2000732421875,
+				"h": 914.8800659179688
 			},
 			"insets": [
 				false,
