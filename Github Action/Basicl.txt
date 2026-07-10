@@ -1,0 +1,13 @@
+Automate various part of software lifecycle
+    Building
+    Testing
+    Deploy
+
+# workflows : Automated process that where mutilple jobs are running 
+            define in .github/workflows folder
+            YAML file is used to define the jobs
+        
+# Event : is a specific activity in a repo that trigger a workflows run.   
+# Jobs : is a set of stpes in a workflows that is excuted on the same runner 
+# Runner : is a server that runs your workflows when they're triggered, Each runner
+        run a single job at a same time.

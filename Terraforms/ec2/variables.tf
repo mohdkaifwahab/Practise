@@ -1,0 +1,23 @@
+variable "ec2_instance_type" {
+    default = "t3.micro"
+    type = string
+}
+
+variable "ec2_root_storage_size" {
+    default = 8
+    type = number
+}
+variable "ec2_root_storage_type" {
+    default = "gp3"
+    type = string
+}
+
+variable "ec2_ami_id" {
+
+    default = "ami-0aba19e56f3eaec05"
+    type = string
+}
+
+variable "ec2_instance_name" {
+    default = "first-using-tf"
+}
